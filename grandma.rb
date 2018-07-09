@@ -1,3 +1,17 @@
+def speak_to_grandma(string)
+  if string == "Hi Nana, how are you?"
+   "HUH?! SPEAK UP, SONNY!"
+  elsif string == "Hi!"
+   "HUH?! SPEAK UP, SONNY!"
+  elsif string == "WHAT DID YOU EAT TODAY?"
+   "NO, NOT SINCE 1938!"
+   elsif string.upcase == "WHAT?".upcase
+   "NO, NOT SINCE 1938!"
+ elsif string == "I LOVE YOU GRANDMA!".upcase
+    "I LOVE YOU TOO PUMPKIN!"
+ end
+end
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
